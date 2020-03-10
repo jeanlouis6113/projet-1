@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .logonav {
     width: 4%;
 }
@@ -61,7 +66,11 @@
 .bordernav {
     border-bottom: 2px solid;
     border-color: rgba(232, 236, 241, 0.7);
-    border-radius: 2%;
+    border-radius: 0 0 2% 2%;
+    position: fixed;
+    height: 50px;
+    background-color: white;
+    width: 100%;
 }
 
 header {
@@ -74,11 +83,16 @@ header {
 
 header p {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
-header h2 {
+h2 {
+    font-size: 50px;
     color: #5fcf80;
+    padding-top: 200px;
+    padding-bottom: 40px;
 }
 
 .treesection {
