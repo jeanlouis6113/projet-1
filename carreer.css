@@ -1,0 +1,65 @@
+.logonav {
+    width: 4%;
+}
+
+.titre {
+    font-size: 2Vh;
+    color: #5fcf80;
+    font-weight: bold;
+}
+
+.titre:hover {
+    font-weight: bold;
+    color: green;
+}
+
+.ulnav {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style: none;
+}
+
+.linav2 {
+    color: #5fcf80;
+    margin: 1vw;
+    font-weight: bold;
+}
+
+.linav2:hover {
+    font-weight: bold;
+    color: green;
+}
+
+.linav {
+    margin: 1vw;
+}
+
+.linav:hover {
+    font-weight: bold;
+    color: grey;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
+
+.logo p {
+    display: inline;
+}
+
+.liennav {
+    position: relative;
+}
+
+.bordernav {
+    border-bottom: 2px solid;
+    border-color: rgba(232, 236, 241, 0.7);
+    border-radius: 2%;
+}
