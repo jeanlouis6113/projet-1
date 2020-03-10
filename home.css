@@ -1,36 +1,4 @@
-
-/**Emplacement footer**/
-
-footer {
-    background-color: snow;
-    list-style: none;
-}
-
-img {
-    max-width: 200px;
-}
-
-p {
-    margin-top: 0px;
-    color: grey;
-}
-
-li {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-a {
-    color: grey;
-    font-weight: bold;
-}
-
-
-/**Fin emplacement footer**/
+/**Navbar**/
 
 .logonav {
     width: 4%;
@@ -97,3 +65,74 @@ a {
     border-color: rgba(232, 236, 241, 0.7);
     border-radius: 2%;
 }
+
+
+/**Fin Navbar**/
+
+
+/**Emplacement footer**/
+
+footer {
+    background-color: snow;
+    list-style: none;
+    display: flex;
+}
+
+.img {
+    width: 150px;
+}
+
+.containerlogo {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 30px;
+    height: 30px;
+}
+
+.Jslogo {
+    width: 55px;
+}
+
+h1 {
+    font-size: 10px;
+    color: grey;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.menu1 {
+    padding-right: 50px;
+}
+
+.menu2 {
+    padding-left: 50px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+a {
+    color: grey;
+    font-weight: bold;
+    margin: 2%;
+    text-decoration: none;
+}
+
+
+/**Fin emplacement footer**/
