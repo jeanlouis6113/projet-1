@@ -98,7 +98,8 @@
                                                     .bordernav {
                                                         border-bottom: 2px solid;
                                                         border-color: rgba(232, 236, 241, 0.7);
-                                                        border-radius: 2%;
+                                                        border-bottom-left-radius: 2%;
+                                                        border-bottom-right-radius: 2%;
                                                         position: fixed;
                                                         height: 8vh;
                                                         background-color: white;
@@ -106,6 +107,7 @@
                                                         padding-top: 2vh;
                                                     }
                                                     /* fin nav */
+                                                    /* debut header */
                                                     
                                                     header {
                                                         background-image: url("https://static.teamtreehouse.com/assets/views/marketing/home/homepage-hero-86e988fc10618a6d2b743327d67eeca3b0396f9720d94c35bbff8cd217de96d1.jpg");
@@ -155,6 +157,8 @@
                                                     .pheader {
                                                         color: white;
                                                     }
+                                                    /* fin header  */
+                                                    /* debut video */
                                                     
                                                     object {
                                                         width: 70vh;
@@ -174,4 +178,36 @@
                                                     .ptextvideo {
                                                         display: flex;
                                                         flex-direction: column;
+                                                    }
+                                                    /* fin video */
+                                                    
+                                                    .supval {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                    }
+                                                    
+                                                    .imgsup {
+                                                        height: 200px%;
+                                                        width: 300px;
+                                                    }
+                                                    
+                                                    .imgval {
+                                                        height: 300px;
+                                                        width: 300px;
+                                                    }
+                                                    
+                                                    .support {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        padding-top: 3%;
+                                                    }
+                                                    
+                                                    .value {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        padding-top: 3%;
+                                                    }
+                                                    
+                                                    .h3supval {
+                                                        padding-bottom: 2%;
                                                     }
