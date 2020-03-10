@@ -1,209 +1,177 @@
-<<<<<<< HEAD .logonav {
-    width: 4%;
-}
-
-.titre {
-    font-size: 2Vh;
-    color: #5fcf80;
-    font-weight: bold;
-}
-
-.titre:hover {
-    font-weight: bold;
-    color: green;
-}
-
-.ulnav {
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    list-style: none;
-}
-
-.linav2 {
-    color: #5fcf80;
-    margin: 1vw;
-    font-weight: bold;
-}
-
-.linav2:hover {
-    font-weight: bold;
-    color: green;
-}
-
-.linav {
-    margin: 1vw;
-}
-
-.linav:hover {
-    font-weight: bold;
-    color: grey;
-}
-
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: absolute;
-    top: 1%;
-    left: 2%;
-}
-
-.logo p {
-    display: inline;
-}
-
-.liennav {
-    position: relative;
-}
-
-.bordernav {
-    border-bottom: 2px solid;
-    border-color: rgba(232, 236, 241, 0.7);
-    border-radius: 2%;
-}
-
-header {
-    background-image: url("https://static.teamtreehouse.com/assets/views/marketing/home/homepage-hero-86e988fc10618a6d2b743327d67eeca3b0396f9720d94c35bbff8cd217de96d1.jpg");
-}
-
-.flexform {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    padding-left: 2%;
-    background-color: white;
-    width: 30%;
-    border-radius: 2%;
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-bottom: 3%;
-    margin-top: 2%;
-}
-
-.flexcontent {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 3%;
-    width: 110%;
-}
-
-.flexpheader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
-}
-
-.txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.Papatxtetflexcontent {
-    display: flex;
-}
-
-
-/**Emplacement footer**/
-
-footer {
-    background-color: snow;
-    list-style: none;
-}
-
-img {
-    max-width: 200px;
-}
-
-p {
-    margin-top: 0px;
-    color: grey;
-}
-
-li {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-a {
-    color: grey;
-    font-weight: bold;
-}
-
-
-/**Fin emplacement footer**/
-
-.logonav {
-    width: 4%;
-}
-
-.titre {
-    font-size: 2Vh;
-    color: #5fcf80;
-    font-weight: bold;
-}
-
-.titre:hover {
-    font-weight: bold;
-    color: green;
-}
-
-.ulnav {
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    list-style: none;
-}
-
-.linav2 {
-    color: #5fcf80;
-    margin: 1vw;
-    font-weight: bold;
-}
-
-.linav2:hover {
-    font-weight: bold;
-    color: green;
-}
-
-.linav {
-    margin: 1vw;
-}
-
-.linav:hover {
-    font-weight: bold;
-    color: grey;
-}
-
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: absolute;
-    top: 1%;
-    left: 2%;
-}
-
-.logo p {
-    display: inline;
-}
-
-.liennav {
-    position: relative;
-}
-
-.bordernav {
-    border-bottom: 2px solid;
-    border-color: rgba(232, 236, 241, 0.7);
-    border-radius: 2%;
-}
+                                                    /**Emplacement footer**/
+                                                    
+                                                    footer {
+                                                        background-color: snow;
+                                                        list-style: none;
+                                                    }
+                                                    
+                                                    p {
+                                                        margin-top: 0px;
+                                                        color: grey;
+                                                    }
+                                                    
+                                                    li {
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        flex-direction: column;
+                                                        align-items: center;
+                                                        margin-left: 10%;
+                                                        margin-right: 10%;
+                                                    }
+                                                    
+                                                    a {
+                                                        color: grey;
+                                                        font-weight: bold;
+                                                    }
+                                                    /**Fin emplacement footer**/
+                                                    /* debut nav  */
+                                                    
+                                                    * {
+                                                        margin: 0;
+                                                        padding: 0;
+                                                    }
+                                                    
+                                                    .logonav {
+                                                        width: 9%;
+                                                    }
+                                                    
+                                                    .titre {
+                                                        font-size: 2Vh;
+                                                        color: #5fcf80;
+                                                        font-weight: bold;
+                                                        padding: 2%;
+                                                    }
+                                                    
+                                                    .titre:hover {
+                                                        font-weight: bold;
+                                                        color: green;
+                                                    }
+                                                    
+                                                    .ulnav {
+                                                        text-align: right;
+                                                        display: flex;
+                                                        justify-content: flex-end;
+                                                        flex-direction: row;
+                                                        list-style: none;
+                                                    }
+                                                    
+                                                    .linav2 {
+                                                        color: #5fcf80;
+                                                        margin: 1vw;
+                                                        font-weight: bold;
+                                                    }
+                                                    
+                                                    .linav2:hover {
+                                                        font-weight: bold;
+                                                        color: green;
+                                                    }
+                                                    
+                                                    .linav {
+                                                        margin: 1vw;
+                                                    }
+                                                    
+                                                    .linav:hover {
+                                                        font-weight: bold;
+                                                        color: grey;
+                                                    }
+                                                    
+                                                    .logo {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        align-items: center;
+                                                        position: absolute;
+                                                        top: 1%;
+                                                        left: 2%;
+                                                        padding-top: 2vh;
+                                                        width: 40vw;
+                                                        height: auto;
+                                                    }
+                                                    
+                                                    .logo p {
+                                                        display: inline;
+                                                    }
+                                                    
+                                                    .liennav {
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    .bordernav {
+                                                        border-bottom: 2px solid;
+                                                        border-color: rgba(232, 236, 241, 0.7);
+                                                        border-radius: 2%;
+                                                        position: fixed;
+                                                        height: 8vh;
+                                                        background-color: white;
+                                                        width: 100%;
+                                                        padding-top: 2vh;
+                                                    }
+                                                    /* fin nav */
+                                                    
+                                                    header {
+                                                        background-image: url("https://static.teamtreehouse.com/assets/views/marketing/home/homepage-hero-86e988fc10618a6d2b743327d67eeca3b0396f9720d94c35bbff8cd217de96d1.jpg");
+                                                    }
+                                                    
+                                                    .flexform {
+                                                        display: flex;
+                                                        align-items: flex-end;
+                                                        flex-direction: column;
+                                                        padding-left: 2%;
+                                                        background-color: white;
+                                                        width: 30%;
+                                                        border-radius: 2%;
+                                                        padding-left: 7%;
+                                                        padding-right: 7%;
+                                                        padding-bottom: 3%;
+                                                        margin-top: 2%;
+                                                    }
+                                                    
+                                                    .flexcontent {
+                                                        display: flex;
+                                                        justify-content: flex-end;
+                                                        padding-right: 3%;
+                                                        width: 110%;
+                                                    }
+                                                    
+                                                    .flexpheader {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        justify-content: space-around;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .txt {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .Papatxtetflexcontent {
+                                                        display: flex;
+                                                        padding-top: 8%;
+                                                    }
+                                                    
+                                                    .pheader {
+                                                        color: white;
+                                                    }
+                                                    
+                                                    object {
+                                                        width: 70vh;
+                                                        height: 39vh;
+                                                        padding: 3%;
+                                                        border-radius: 3rem;
+                                                    }
+                                                    
+                                                    .video {
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        align-items: center;
+                                                        justify-content: flex-end;
+                                                        text-align: right;
+                                                    }
+                                                    
+                                                    .ptextvideo {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                    }
