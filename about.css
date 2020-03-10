@@ -1,16 +1,17 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .logonav {
-    width: 4%;
+    width: 9%;
 }
 
 .titre {
     font-size: 2Vh;
     color: #5fcf80;
     font-weight: bold;
+    padding: 2%;
 }
 
 .titre:hover {
@@ -53,6 +54,9 @@
     position: absolute;
     top: 1%;
     left: 2%;
+    padding-top: 2vh;
+    width: 40vw;
+    height: auto;
 }
 
 .logo p {
@@ -66,12 +70,17 @@
 .bordernav {
     border-bottom: 2px solid;
     border-color: rgba(232, 236, 241, 0.7);
-    border-radius: 0 0 2% 2%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
     position: fixed;
-    height: 50px;
+    height: 8vh;
     background-color: white;
     width: 100%;
+    padding-top: 2vh;
 }
+
+
+/* body */
 
 header {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSo6qgsyPKzZkkVGlb4u9Pt3mERJT-AbzjGMBMNk8_sSX7crXDC);
@@ -88,11 +97,17 @@ header p {
     padding-right: 20%;
 }
 
-h2 {
+header h2 {
     font-size: 50px;
     color: #5fcf80;
     padding-top: 200px;
     padding-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vw;
+    padding-bottom: 5px;
 }
 
 .treesection {
@@ -101,3 +116,75 @@ h2 {
     background-size: cover;
     height: 600px;
 }
+
+p {
+    font-size: 1.3rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 2%;
+    color: grey;
+}
+
+.jlp {
+    padding-top: 100px;
+    background-color: rgb(87, 99, 102, 0.05);
+    padding-bottom: 50px;
+}
+
+.jlp1 {
+    padding-top: 80px;
+}
+
+.jlp2 {
+    padding-bottom: 50px;
+}
+
+.data {
+    background-color: rgb(87, 99, 102, 0.05);
+}
+
+ul {
+    font-size: 1.3rem;
+    padding-left: 15%;
+    padding-right: 10%;
+    margin: 2%;
+    color: grey;
+}
+
+.logosponsor {
+    height: 100px;
+    width: 100px;
+}
+
+.article {
+    display: inline;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: snow;
+    list-style: none;
+}
+
+img {
+    max-width: 200px;
+}
+
+.jli {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.jlia {
+    color: grey;
+    font-weight: bold;
+}
+
+
+/**Fin emplacement footer**/
