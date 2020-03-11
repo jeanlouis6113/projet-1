@@ -149,16 +149,33 @@ h2{
 
 }
 
-@media screen and (max-width:560px){
+@media screen and (max-width:760px){
 
     .picture{
         display: none;
 
     }
+    .logoflex{
+
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .logoimg{
+        width: 60vw;
+        height: auto;
+        padding-bottom: 10vw;
+    }
+
+    .imgsize{
+        width: 40vw;
+        height: 40vw;
+        padding-left: 3vw;
+    }
 }
 
 
-@media screen and (max-width: 332px){
+//*@media screen and (max-width: 360px){
 
     .logoflex{
 
@@ -169,13 +186,13 @@ h2{
     .logoimg{
         width: 60vw;
         height: auto;
-        padding: 2vw;
+        padding-bottom: 10vw;
         
     }
 
     .imgsize{
-        width: 10vw;
-        height: 10vw;
+        width: 40vw;
+        height: 40vw;
         padding-left: 3vw;
     }
 
