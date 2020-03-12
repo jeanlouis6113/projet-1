@@ -1,15 +1,19 @@
 
-html,body {
+*html,body {
     margin: 0;
     padding: 0;
 }
+ /* debut nav  */
+                
+
+
 .logonav {
     width: 9%;
 }
 
 .titre {
     font-size: 2Vh;
-    color: #5fcf80;
+    color: #5FCF80;
     font-weight: bold;
     padding: 2%;
 }
@@ -28,9 +32,10 @@ html,body {
 }
 
 .linav2 {
-    color: #5fcf80;
+    color: #5FCF80;
     margin: 1vw;
     font-weight: bold;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
 .linav2:hover {
@@ -40,6 +45,12 @@ html,body {
 
 .linav {
     margin: 1vw;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.linav1 {
+    margin: 1vw;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
 .linav:hover {
@@ -63,21 +74,22 @@ html,body {
     display: inline;
 }
 
-.liennav {
-    position: relative;
-}
-
 .bordernav {
     border-bottom: 2px solid;
     border-color: rgba(232, 236, 241, 0.7);
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
     position: fixed;
-   
+    height: 8vh;
     background-color: white;
     width: 100%;
-    
+    padding-top: 2vh;
 }
+
+.divlogoburger {
+    display: none;
+}
+/* fin nav */
 
 
 
@@ -243,7 +255,58 @@ footer a {
 
 
 @media screen and (min-width:376px) and (max-width:768px){
-
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2vh;
+        width: 100%;
+        height: auto;
+        
+    }
+    .logo p {
+        display: none;
+    }
+    
+    .bordernav {
+        border-bottom: 2px solid;
+        border-color: rgba(232, 236, 241, 0.7);
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        position: fixed;
+        height: 8vh;
+        background-color: white;
+        width: 100%;
+        padding-top: 2vh;
+    }
+    .linav {
+        display: none;
+    }
+    .titre {
+        display: none;
+    }
+    .linav2 {
+        padding-right: 2vh;
+        margin: 3px;
+        margin-top: 8px;
+    }
+    .logonav {
+        width: 7vh;
+    }
+    .logoburger {
+        height: 4VH;
+        width: 10VW;
+        margin-right: 550px;
+        margin-top: 7px;
+    }
+    .liensnav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .divlogoburger {
+        display: flex;
+    }
     
     /*  footer  */
     footer{
@@ -263,6 +326,8 @@ footer a {
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
     }
     .menu2{
         margin-left: 0px;
@@ -273,9 +338,21 @@ footer a {
         margin-left: 0px;
         margin-right: 0px;
         padding-top: 0.1px;
+        padding-right: 0px;
+        padding-left: 0px;
+        
 
     }
-
+    footer ol{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .pict{
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: :100%;
+    }
     
 }
 
