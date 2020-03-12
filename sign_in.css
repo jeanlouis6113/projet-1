@@ -1,0 +1,218 @@
+/**Début navbar**/
+
+.logonav {
+    width: 10%;
+    height: 10%;
+}
+
+.logo a {
+    font-size: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.logo li {
+    margin: 2%;
+}
+
+.jnavbar {
+    background-color: #576366;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menuj {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.menuj li {}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/**Fin navbar**/
+
+body {
+    background-color: #edeff0;
+}
+
+
+/**Début form**/
+
+.form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+}
+
+.form2 {
+    margin: 2%;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+}
+
+.form0 {
+    padding-bottom: 10%;
+}
+
+.button {
+    background-color: #5fcf80;
+    border: solid 2px #5fcf80;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 5%;
+    height: 80%;
+    width: 80%;
+}
+
+.forget a {
+    text-decoration: none;
+    color: #b2bac2;
+}
+
+
+/**Fin de form**/
+
+
+/**Emplacement footer**/
+
+footer {
+    background-color: #edeff0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+footer img {
+    width: 139px;
+    height: 32px;
+}
+
+footer ul {
+    width: 100%;
+    margin: 2%;
+}
+
+footer h2 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #8d9aa5;
+    font-size: bold;
+    margin-top: 0%;
+}
+
+footer li {
+    list-style: none;
+    padding: 2%;
+    font-size: 13px;
+}
+
+footer a {
+    color: #b2bac2;
+    text-decoration: none;
+}
+
+footer p {
+    color: #b2bac2;
+    font-size: 13px;
+}
+
+.logoimage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+}
+
+.treehouse {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 15%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.logoalign {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+}
+
+.logoalign img {
+    height: 30px;
+    width: 30px;
+    padding: 3%;
+}
+
+.menualign ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.menualign {
+    margin-left: 5%;
+    display: flex;
+    justify-content: start;
+    font-size: 13px;
+    width: 100%;
+}
+
+.menualign p {
+    font-size: 13px;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px #b2bac2 solid;
+    padding-top: 1%;
+    width: 100%;
+    margin-left: 2%;
+    align-items: center;
+}
+
+.copyright p {
+    display: flex;
+    width: 100%;
+    margin-right: 10%;
+}
+
+
+/**Fin modification footer**/
