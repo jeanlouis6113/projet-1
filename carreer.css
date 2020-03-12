@@ -1,0 +1,429 @@
+
+*html,body {
+    margin: 0;
+    padding: 0;
+}
+ /* debut nav  */
+                
+
+
+.logonav {
+    width: 9%;
+}
+
+.titre {
+    font-size: 2Vh;
+    color: #5FCF80;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.titre:hover {
+    font-weight: bold;
+    color: green;
+}
+
+.ulnav {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style: none;
+}
+
+.linav2 {
+    color: #5FCF80;
+    margin: 1vw;
+    font-weight: bold;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.linav2:hover {
+    font-weight: bold;
+    color: green;
+}
+
+.linav {
+    margin: 1vw;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.linav1 {
+    margin: 1vw;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.linav:hover {
+    font-weight: bold;
+    color: grey;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    padding-top: 2vh;
+    width: 40vw;
+    height: auto;
+}
+
+.logo p {
+    display: inline;
+}
+
+.bordernav {
+    border-bottom: 2px solid;
+    border-color: rgba(232, 236, 241, 0.7);
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    position: fixed;
+    height: 8vh;
+    background-color: white;
+    width: 100%;
+    padding-top: 2vh;
+}
+
+.divlogoburger {
+    display: none;
+}
+/* fin nav */
+
+
+
+
+/**section 1**/
+
+.join{
+    padding-top: 10%;
+    background-color: forestgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4%;
+    
+}
+.tete{
+    font-size: 2.5vw;
+    color: ghostwhite;
+    margin-bottom: 3%;
+    text-align: center;
+    width: 50%;
+    padding: 5%;
+}
+.opport{
+    padding: 1.1%;
+    font-weight: bold;
+    margin-bottom: 6%;
+    
+
+}
+
+
+
+
+
+
+/**section 2**/
+
+
+/**section 3**/
+.imgsize{
+    width: 10vw;
+    height: 10vw;
+    padding-left: 3vw;
+}
+.logoimg{
+    width: 25vw;
+    height: auto;
+    padding: 2vw;
+    
+    
+}
+.logoflex {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.perks{
+    text-align: center;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
+}
+.paraglogo{
+    text-align:justify;
+    }
+
+
+
+/**section 4**/
+.sect4{
+    padding-top: .1%;
+    background-color: rgb(224, 217, 217,0.3);
+    
+}
+
+/**general**/
+h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 7%;
+
+}
+
+
+/** FOOTER**/
+
+footer {
+    background-color: snow;
+    list-style: none;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img {
+    width: 150px;
+}
+
+.containerlogo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Jslogo {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    font-size: 10px;
+    color: grey;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.menu1 {
+    padding-right: 50px;
+}
+
+.menu2 {
+    padding-left: 50px;
+}
+
+footer ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+footer li {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding: 2%;
+    width: 100%;
+}
+
+footer a {
+    color: grey;
+    font-weight: bold;
+    width: 15%;
+    text-decoration: none;
+}
+
+
+/** FIN FOOTER**/
+
+
+
+
+
+@media screen and (min-width:376px) and (max-width:768px){
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2vh;
+        width: 100%;
+        height: auto;
+        
+    }
+    .logo p {
+        display: none;
+    }
+    
+    .bordernav {
+        border-bottom: 2px solid;
+        border-color: rgba(232, 236, 241, 0.7);
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        position: fixed;
+        height: 8vh;
+        background-color: white;
+        width: 100%;
+        padding-top: 2vh;
+    }
+    .linav {
+        display: none;
+    }
+    .titre {
+        display: none;
+    }
+    .linav2 {
+        padding-right: 2vh;
+        margin: 3px;
+        margin-top: 8px;
+    }
+    .logonav {
+        width: 7vh;
+    }
+    .logoburger {
+        height: 4VH;
+        width: 10VW;
+        margin-right: 550px;
+        margin-top: 7px;
+    }
+    .liensnav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .divlogoburger {
+        display: flex;
+    }
+    
+    /*  footer  */
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .menu1{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+    .menu2{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    footer li{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0.1px;
+        padding-right: 0px;
+        padding-left: 0px;
+        
+
+    }
+    footer ol{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .pict{
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: :100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px){
+
+    .picture{
+        display: none;
+
+    }
+    .logoflex{
+
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .logoimg{
+        width: 60vw;
+        height: auto;
+        padding-bottom: 10vw;
+    }
+
+    .imgsize{
+        width: 40vw;
+        height: 40vw;
+        padding-left: 3vw;
+    } 
+    .tete{
+        font-size: 5.5vw;
+    }
+
+
+
+
+
+     /*  footer  */
+     footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    .menu1{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .menu2{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    footer li{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0.1px;
+
+    }
+}
