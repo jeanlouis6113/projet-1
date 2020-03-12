@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
 .logonav {
@@ -47,6 +48,11 @@
     color: grey;
 }
 
+.linav1 {
+    margin 1vw;
+    padding-top: 1%;
+}
+
 .logo {
     display: flex;
     flex-direction: row;
@@ -78,7 +84,6 @@
     width: 100%;
     padding-top: 2vh;
 }
-
 
 /* body */
 
@@ -311,9 +316,8 @@ input {
 }
 
 .logo1 img {
-    width: 35%;
+    width: 55%;
 }
-
 
 /** FOOTER**/
 
@@ -323,6 +327,7 @@ footer {
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 2%;
 }
 
 .img {
@@ -332,14 +337,15 @@ footer {
 .containerlogo {
     display: flex;
     flex-wrap: nowrap;
+    width: 30px;
+    height: 30px;
 }
 
 .Jslogo {
     width: 55px;
-    height: 55px;
 }
 
-h1 {
+footer h1 {
     font-size: 10px;
     color: grey;
 }
@@ -373,7 +379,6 @@ footer li {
     margin-right: 10%;
     text-align: justify;
     padding: 2%;
-    width: 100%;
 }
 
 footer a {
@@ -381,4 +386,243 @@ footer a {
     font-weight: bold;
     width: 15%;
     text-decoration: none;
+}
+
+.divlogoburger {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2vh;
+        width: 100%;
+        height: auto;
+    }
+    .logo p {
+        display: none;
+    }
+    .bordernav {
+        border-bottom: 2px solid;
+        border-color: rgba(232, 236, 241, 0.7);
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        position: fixed;
+        height: 8vh;
+        background-color: white;
+        width: 100%;
+        padding-top: 2vh;
+    }
+    .linav {
+        display: none;
+    }
+    .titre {
+        display: none;
+    }
+    .linav2 {
+        padding-right: 2vh;
+        margin: 3px;
+        margin-top: 8px;
+    }
+    .logonav {
+        width: 7vh;
+    }
+    .logoburger {
+        height: 4VH;
+        width: 10VW;
+        margin-right: 550px;
+        margin-top: 7px;
+    }
+    .liensnav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .divlogoburger {
+        display: flex;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .bloc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bloc0 {
+        width: 65%;
+    }
+    .bloc1 h1 {
+        padding-top: 5px;
+        margin-left: 25%;
+    }
+    footer h1 {
+        margin-bottom: 10px;
+    }
+    .bloc1 {
+        margin-top: 5px;
+    }
+    .logo1 {
+        text-align: 50%;
+        margin-left: 35%;
+        padding-bottom: 25px;
+    }
+    .butca input {
+        font-size: 1.4rem;
+        width: 30%;
+        height: 100%;
+        color: #4b5658;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: rgba(232, 236, 241, 0.9);
+    }
+    .article {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .logosponsor {
+        margin-left: 40%;
+    }
+    .treesection h2 {
+        font-size: 30px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu1 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    footer li {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 0.1px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgg {
+        width: 100%;
+    }
+    .logosponsor {
+        margin-left: 30%;
+    }
+    section h2 {
+        font-size: 30px;
+    }
+    .jltitle p {
+        font-size: 30px;
+    }
+    .but {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input {
+        width: 12%;
+        height: 10%;
+        background-color: #4b5658;
+        color: white;
+        border-radius: 20px;
+        border-color: white;
+        padding: 5px;
+        border: none;
+    }
+    .bloc {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .butca input {
+        width: 70%;
+        height: 100%;
+    }
+    .jltitle h2 {
+        font-size: 35px;
+    }
+    .bloc0 {
+        width: 100%;
+    }
+    .fin {
+        display: flex;
+        flex-direction: column;
+    }
+    .treesection {
+        height: 100%;
+    }
+    .bordernav {
+        width: 72%;
+    }
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2vh;
+        width: 100%;
+        height: auto;
+    }
+    .logo p {
+        display: none;
+    }
+    .bordernav {
+        border-bottom: 2px solid;
+        border-color: rgba(232, 236, 241, 0.7);
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        position: fixed;
+        height: 8vh;
+        background-color: white;
+        width: 100%;
+        padding-top: 2vh;
+    }
+    .linav {
+        display: none;
+    }
+    .titre {
+        display: none;
+    }
+    .linav2 {
+        padding-right: 2vh;
+    }
+    .logonav {
+        width: 7vh;
+    }
+    .divlogoburger {
+        display: flex;
+    }
+    .logoburger {
+        height: 4VH;
+        width: 10VW;
+        margin-right: 230px;
+        margin-top: 7px;
+    }
+    .liensnav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .linav1 {
+        display: none;
+    }
 }
