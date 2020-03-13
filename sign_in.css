@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .logonav {
     width: 8vh;
     height: 5vh;
@@ -13,7 +13,6 @@
 .logonav {
     width: 10%;
     height: 10%;
->>>>>>> 4ac50ccee8eaf1ab15cd176e7e2caba72e2a15d9
 }
 
 .logo a {
@@ -26,10 +25,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-<<<<<<< HEAD
     font-family: 'Baloo Chettan 2', cursive;
-=======
->>>>>>> 4ac50ccee8eaf1ab15cd176e7e2caba72e2a15d9
 }
 
 .logo li {
@@ -54,8 +50,6 @@
 
 .Sigin {
     margin: 3%;
-=======
->>>>>>> 4ac50ccee8eaf1ab15cd176e7e2caba72e2a15d9
 }
 
 .menuj li {}
@@ -90,10 +84,7 @@ body {
     width: 50%;
     height: 50%;
     margin-top: 5%;
-<<<<<<< HEAD
     border-bottom: 1px solid grey;
-=======
->>>>>>> 4ac50ccee8eaf1ab15cd176e7e2caba72e2a15d9
 }
 
 .form2 {
@@ -119,14 +110,11 @@ body {
     width: 80%;
 }
 
-<<<<<<< HEAD
 .button:hover {
     background-color: green;
     border: solid 2px green;
 }
 
-=======
->>>>>>> 4ac50ccee8eaf1ab15cd176e7e2caba72e2a15d9
 .forget a {
     text-decoration: none;
     color: #b2bac2;
@@ -281,7 +269,5 @@ a:hover {
 .menuj a {
     font-family: 'Baloo Chettan 2', cursive;
 }
-=======
 
 /**Fin modification footer**/
->>>>>>> 4ac50ccee8eaf1ab15cd176e7e2caba72e2a15d9
