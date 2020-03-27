@@ -1,21 +1,30 @@
-
-.logonav {
-    width: 8vh;
-    height: 5vh;
-}
-
-.logo {
-    display: flex;
-    flex-direction: row;
 /**Début navbar**/
 
-.logonav {
+#buttonBurger svg {
+    width: 30px;
+    height: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.logonav1 {
     width: 10%;
     height: 10%;
 }
 
+.logo {
+    width: 100%;
+}
+
+.logo :hover {
+    color: #5fcf80;
+    cursor: pointer;
+}
+
 .logo a {
-    font-size: bold;
+    font-weight: bold;
     text-decoration: none;
     color: #fff;
 }
@@ -24,7 +33,6 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    font-family: 'Baloo Chettan 2', cursive;
 }
 
 .logo li {
@@ -43,15 +51,16 @@
     align-items: center;
     list-style: none;
     width: 100%;
-<<<<<<< HEAD
-    margin-right: 3%;
 }
 
-.Sigin {
-    margin: 3%;
+.menuj :hover {
+    color: #5fcf80;
+    cursor: pointer;
 }
 
-.menuj li {}
+.menuj li {
+    margin-right: 5%;
+}
 
 nav li {
     list-style: none;
@@ -76,18 +85,23 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 2%;
     border: solid 1px white;
     border-radius: 10px;
     width: 50%;
     height: 50%;
     margin-top: 5%;
-    border-bottom: 1px solid grey;
 }
 
 .form2 {
     margin: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.form input {
+    padding-bottom: 2%;
+    margin: 1%;
 }
 
 .form1 {
@@ -104,19 +118,21 @@ body {
     border: solid 2px #5fcf80;
     border-radius: 5px;
     color: white;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     height: 80%;
-    width: 80%;
+    width: 20%;
+    vertical-align: center;
+    text-align: center;
 }
 
-.button:hover {
-    background-color: green;
-    border: solid 2px green;
-}
-
-.forget a {
+.form2 a {
     text-decoration: none;
     color: #b2bac2;
+    display: flex;
+    flex-direction: row;
+    margin-left: 53%;
+    align-items: center;
+    font-size: 14px;
 }
 
 
@@ -146,7 +162,7 @@ footer h2 {
     font-size: 13px;
     font-weight: 500;
     color: #8d9aa5;
-    font-size: bold;
+    font-weight: bold;
     margin-top: 0%;
 }
 
@@ -159,6 +175,7 @@ footer li {
 footer a {
     color: #b2bac2;
     text-decoration: none;
+    font-weight: bold;
 }
 
 footer p {
@@ -226,7 +243,6 @@ footer p {
     border-top: 1px #b2bac2 solid;
     padding-top: 1%;
     width: 100%;
-    margin-left: 2%;
     align-items: center;
 }
 
@@ -236,37 +252,67 @@ footer p {
     margin-right: 10%;
 }
 
-<<<<<<< HEAD
-.treehouse a {
-    color: black;
-    font-family: 'Baloo Chettan 2', cursive;
-}
 
-.treehouse h2 {
-    color: black;
-    font-family: 'Baloo Chettan 2', cursive;
-}
+/**RESPONSIVE**/
 
-a:hover {
-    color: green;
+@media all and (max-width:768px) {
+    body {
+        margin: 3%;
+    }
+    .sm-show {
+        display: block;
+    }
+    .sm-hide {
+        display: none;
+    }
+    .button {
+        width: 20%;
+    }
+    .hide :hover {
+        color: #5fcf80;
+        cursor: pointer;
+    }
+    .logognav1 {
+        display: none;
+    }
+    .form {
+        display: flex;
+        width: 100%;
+        padding: 5%;
+    }
+    .form2 a {
+        margin-left: 25%;
+        align-items: center;
+        font-size: 14px;
+    }
+    .container {
+        display: none;
+    }
+    .align {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menualign :hover {
+        color: #5fcf80;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .menualign ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .menualign li {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+    .logo ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
 }
-
-.forget a {
-    color: black;
-    opacity: 0.6;
-    font-family: 'Baloo Chettan 2', cursive;
-}
-
-.forget a :hover {
-    color: green
-}
-
-.signin {
-    margin-right: 2vh;
-}
-
-.menuj a {
-    font-family: 'Baloo Chettan 2', cursive;
-}
-
-/**Fin modification footer**/

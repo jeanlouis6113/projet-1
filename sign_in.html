@@ -4,18 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sign_in.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="sign_in.css" media="screen" />
+    <title>Sign in</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="jnavbar">
-                <div class="logo">
+        <div class="jnavbar">
+            <!-- Bouton Menu Burger -->
+            <div class="hide sm-show" onclick="burgerMenu()">
+                <span id="buttonBurger"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></span>
+            </div>
+            <!-- Bouton Menu Burger -->
+            <!-- Menu de Navigation Desktop -->
+            <div class="logo sm-hide">
+                <nav>
                     <ul>
-                        <img class="logonav" src="https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/13069487021556105336-512.png" alt="logo">
+                        <img class="logonav1" src="https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/13069487021556105336-512.png" alt="logo">
                         <li><a href="#Home">Home</a></li>
                         <li><a href="#Techdegree">Techdegree</a></li>
                         <li><a href="#Tracks">Tracks</a></li>
@@ -34,21 +39,38 @@
                             <li><a href="#Free_Trial">Free Trial</a></li>
                         </div>
                     </ul>
-                </div>
+                </nav>
             </div>
-        </nav>
+            <!-- Menu de Navigation Desktop -->
+            <!-- Menu de Navigation Responsive -->
+            <div id="burger" class="logo hide">
+                <nav>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Techdegree">Techdegree</a></li>
+                        <li><a href="#Tracks">Tracks</a></li>
+                        <li><a href="#Library">Library</a></li>
+                        <li><a href="#Community">Community</a></li>
+                        <li><a href="#Support">Support</a></li>
+                        <li><a href="#Sign_in">Sign in</a></li>
+                        <li><a href="#Free_Trial"> Free Trial</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <!-- Menu de Navigation Responsive -->
+        </div>
     </header>
     <!--Début form-->
     <form class="form0">
         <div class="form1">
             <div class="form">
-                <input type="eamail" placeholder="Email Address">
+                <input type="email" placeholder="Email Address">
                 <input type="password" placeholder="Password">
                 <div class="form2">
                     <input class="button" type="button" value="sign in">
-                    <div class="forget">
-                        <a href="https://teamtreehouse.com/password_resets">I forgot my password</a>
-                    </div>
+                    <a href="https://teamtreehouse.com/password_resets">I forgot my password</a>
                 </div>
             </div>
         </div>
@@ -101,7 +123,7 @@
             </div>
         </div>
         <div class="align">
-            <div class="logo">
+            <div class="logo2">
                 <div class="logoalign">
                     <img src="data:image/png;base64,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"
                         alt="Logo twiter">
@@ -128,6 +150,7 @@
         </div>
     </footer>
     <!--Fin modification de footer-->
+    <script type="text/javascript" src="sign_in.js"></script>
 </body>
 
 </html>
